@@ -8,8 +8,8 @@ $porta = "3306";
 $conexao = new mysqli(
 $host,
 $usuario,
-$senha ,
-$banco ,
+$senha,
+$banco,
 $porta
 );
 if ($conexao->connect_error){
