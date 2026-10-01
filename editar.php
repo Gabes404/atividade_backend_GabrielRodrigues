@@ -1,7 +1,7 @@
 <?php
-    include "conexao.php"
+    include "config/conexao.php";
 
-    $id = intval($_GET["id"]) 
+    $id = intval($_GET["id"]);
 
     $sql = "SELECT * FROM ordens_servico WHERE
     id = ?";

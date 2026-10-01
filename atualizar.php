@@ -1,9 +1,9 @@
 <?php
-    include "conexao.php"
+    include "config/conexao.php";
 
     $id = intval($_POST["id"]);
-    $cliente  = $_POST["cliente"];
-    $equipamento= $_POST["equipamento"];
+    $cliente = $_POST["cliente"];
+    $equipamento = $_POST["equipamento"];
     $problema = $_POST["problema"];
     $data_entrada = $_POST["data_entrada"];
     $status = $_POST["status"];
