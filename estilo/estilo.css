@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    padding: 30px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    background: gray;
+    padding: 30px;
+    border-radius: 10px;
+}
+input, textarea, select{
+    width: auto;
+}
+th, td {
+    border: 1px solid white;
+}
